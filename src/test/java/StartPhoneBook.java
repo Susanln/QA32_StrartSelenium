@@ -50,15 +50,28 @@ public class StartPhoneBook {
     @Test
     public void cssLocatorsTest(){
         wd = new ChromeDriver();
-        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app");
+        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/login");
         wd.manage().window().maximize();
 
         wd.findElement(By.cssSelector("div"));
+
+             wd.findElement(By.xpath("//div"));
+
        // wd.findElement(By.cssSelector(".login_login__3EHKB"));
         wd.findElement(By.cssSelector("#root"));
-        //wd.findElement(By.cssSelector("[placeholder='Password']"));
+             wd.findElement(By.xpath("//a")); //    /html/body/div/a
+
+             wd.findElement(By.xpath("//*[@class='login_login__3EHKB']"));
+             wd.findElement(By.xpath("//*[@id='root']"));
+
+             wd.findElement(By.xpath("//*[@placeholder='Email']"));
+             wd.findElement(By.xpath("//*[@placeholder = 'Password']"));
+             //wd.findElement(By.cssSelector("[placeholder='Password']"));
+
         wd.findElement(By.cssSelector("[placeholder*='ss']"));
+        wd.findElement(By.xpath("//*[contains(@placeholder,'Password')]"));
         wd.findElement(By.cssSelector("[placeholder^='Pa']"));
+        wd.findElement(By.xpath("//*[starts-with(@placeholder,'Pa')]"));
         wd.findElement(By.cssSelector("[placeholder$='d']"));
 
 

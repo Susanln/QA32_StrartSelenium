@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bbf377c-fcc0-4f7b-adf4-e02b91826196" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StartPhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StartPhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/StartPhoneBook.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/StartPhoneBook.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/TableTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,8 +59,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.TableTest.homeWork">
+  <component name="RunManager" selected="Gradle.TableTest.xPathTests">
     <configuration name="StartPhoneBook.cssLocatorsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,10 +131,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TableTest.xPathTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TableTest.xPathTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TableTest.homeWork" />
+        <item itemvalue="Gradle.TableTest.xPathTests" />
         <item itemvalue="Gradle.StartPhoneBook.cssLocatorsTest" />
+        <item itemvalue="Gradle.TableTest.homeWork" />
         <item itemvalue="Gradle.StartPhoneBook.startPhoneBook (1)" />
       </list>
     </recent_temporary>
@@ -146,7 +173,10 @@
       <updated>1646298985799</updated>
       <workItem from="1646298987411" duration="1569000" />
       <workItem from="1646377219985" duration="7295000" />
-      <workItem from="1646649806120" duration="3663000" />
+      <workItem from="1646649806120" duration="3827000" />
+      <workItem from="1646655136268" duration="3000" />
+      <workItem from="1646672181023" duration="89000" />
+      <workItem from="1646895458058" duration="8469000" />
     </task>
     <servers />
   </component>
